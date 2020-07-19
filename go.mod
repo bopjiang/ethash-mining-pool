@@ -3,7 +3,6 @@ module github.com/techievee/ethash-mining-pool
 go 1.14
 
 require (
-	github.com/ethereum/ethash v0.0.0-20170407112842-f5f0a8b19625
 	github.com/ethereum/go-ethereum v1.9.17-0.20200716120838-9e88224eb86c
 	github.com/garyburd/redigo v1.6.0 // indirect
 	github.com/gorilla/mux v1.7.4
