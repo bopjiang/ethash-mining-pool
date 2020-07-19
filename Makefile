@@ -6,9 +6,11 @@
 
 GOBIN = build/bin
 
+all: export GO111MODULE=off
 all:
 	build/env.sh go get -v ./...
 
+test: export GO111MODULE=off
 test: all
 	build/env.sh go test -v ./...
 
